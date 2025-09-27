@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.75;
+  color: #525252;
+  cursor: default;
+}

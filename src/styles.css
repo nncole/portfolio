@@ -67,3 +67,29 @@ body {
     transform: scale(1.25);
   }
 }
+
+/* SECTION HEADINGS */
+
+.section-heading {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 35px;
+  height: 1px;
+  margin-right: 15px;
+
+  background-color: #e69fad;
+}
+
+.section-title {
+  margin: 0;
+
+  font-size: 0.85em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #a3a3a3;
+}

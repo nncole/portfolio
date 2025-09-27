@@ -14,3 +14,56 @@ body {
   width: 550px;
   margin: 30px auto 110px;
 }
+
+/* HERO SECTION */
+
+#introduction {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+#introduction h1 {
+  margin: 0;
+  color: #262626;
+  font-family: 'Crimson Pro', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#hero p {
+  font-size: 0.8rem;
+}
+
+.status {
+  width: 125px;
+  margin: 30px 0;
+  padding: 5px;
+  font-size: 0.75rem;
+  text-align: center;
+  color: #22c55e;
+  background-color: #22c55e26;
+  border: 1px solid #22c55e;
+  border-radius: 25px;
+}
+
+/* Heart Animation */
+
+#introduction .heart {
+  margin-left: 10px;
+  font-size: 31px;
+  cursor: pointer;
+}
+
+#introduction .heart:hover {
+  animation: heartbeat 4s infinite;
+}
+
+@keyframes heartbeat {
+  0%, 50%, 100% {
+    transform: scale(1);
+  }
+  25%, 75%{
+    transform: scale(1.25);
+  }
+}

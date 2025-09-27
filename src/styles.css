@@ -93,3 +93,45 @@ body {
 
   color: #a3a3a3;
 }
+
+/* SECTION STYLES */
+
+#education {
+  padding: 5px 0;
+}
+
+.card {
+  padding: 20px 0;
+}
+
+.card-title {
+  margin: 0;
+  
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  color: #262626;
+}
+
+.card-description {
+  margin: 0;
+  padding-top: 5px;
+
+  font-size: 0.75rem;
+}
+
+.dot {
+  margin: 0 10px;
+  width: 3px;
+  height: 3px;
+
+  display: inline-block;
+
+  background-color:#525252;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.date {
+  color: #a3a3a3;
+}

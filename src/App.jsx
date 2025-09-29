@@ -4,6 +4,7 @@ import Education from "./components/Education.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Technologies from "./components/Technologies.jsx";
 import Projects from "./components/Projects.jsx";
+import BottomNav from "./components/BottomNav.jsx";
 
 import { certificate, technology, project } from "./data.js";
 
@@ -17,6 +18,7 @@ function App() {
       <Certifications certificate={certificate} />
       <Technologies technology={technology} />
       <Projects project={project} />
+      <BottomNav />
     </>
   )
 }

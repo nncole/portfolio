@@ -12,3 +12,15 @@ export const certificate = [
     date: "July 2025"
   },
 ];
+
+export const technology = [
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "React",
+  "Git/Github",
+  "Figma",
+  "Canva",
+  "Adobe PS",
+  "Adobe AI",
+];

@@ -139,3 +139,19 @@ body {
 .date {
   color: #a3a3a3;
 }
+
+/* TECHNOLOGIES SECTION */
+
+#technologies-list {
+  padding: 20px 0;
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 50px;
+
+  font-size: 0.8rem;
+}
+
+#technologies-list span {
+  width: 25%;
+}

@@ -104,6 +104,10 @@ body {
   padding: 20px 0;
 }
 
+.card:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .card-title {
   margin: 0;
   

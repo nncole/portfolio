@@ -6,13 +6,60 @@ body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
   line-height: 1.75;
+
   color: #525252;
+  background-color: #ffffff;
   cursor: default;
 }
 
 #root {
   width: 550px;
   margin: 30px auto 110px;
+}
+
+/* UPPER NAV */
+
+#upper-nav {
+  width: 550px;
+  margin: auto;
+  padding: 25px 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #ffffff40;
+  text-transform: lowercase;
+  font-size: 0.8em;
+}
+
+#name {
+  font-weight: 500;
+}
+
+#upper-nav ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+
+  list-style: none;
+}
+
+#upper-nav li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#upper-nav li a:hover {
+  color: #e69fad;
+  text-decoration: underline;
 }
 
 /* HERO SECTION */

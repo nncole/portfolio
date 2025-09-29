@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 function Certifications({certificate}) {
   return (
-    <section id="certifications">
+    <section id="certifications" className="section">
       <SectionHeading
         title="Certifications" />
       {certificate.map((cert, key) => (

@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 function Projects({project}) {
   return (
-    <section id="projects">
+    <section id="projects" className="section">
       <SectionHeading
         title="Projects" />
       {project.map((proj, key) => (

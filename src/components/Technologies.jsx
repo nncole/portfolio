@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 
 function Technologies({technology}) {
   return (
-    <section id="technologies">
+    <section id="technologies" className="section">
       <SectionHeading
         title="Technologies" />
       <div id="technologies-list">

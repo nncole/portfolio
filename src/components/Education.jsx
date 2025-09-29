@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading.jsx"
 
 function Education() {
   return (
-    <section id="education">
+    <section id="education" className="section">
       <SectionHeading
         title="Education" />
       <div className="card">

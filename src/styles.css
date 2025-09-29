@@ -144,7 +144,7 @@ body {
 
 #technologies-list {
   padding: 20px 0;
-  
+
   display: flex;
   flex-wrap: wrap;
   gap: 10px 50px;
@@ -154,4 +154,14 @@ body {
 
 #technologies-list span {
   width: 25%;
+}
+
+/* PROJECTS SECTION */
+
+.wip {
+  font-weight: 400;
+  font-size: 0.7rem;
+  vertical-align: top;
+  
+  color: #a3a3a3;
 }

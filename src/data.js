@@ -24,3 +24,24 @@ export const technology = [
   "Adobe PS",
   "Adobe AI",
 ];
+
+export const project = [
+  {
+    id: 1,
+    title: "Skincare Concept Landing Page",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    isWIP: false,
+  },
+  {
+    id: 2,
+    title: "Password Generator",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    isWIP: false,
+  },
+  {
+    id: 3,
+    title: "Scrimba Solo Projects",
+    detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    isWIP: true,
+  },
+];

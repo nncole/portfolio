@@ -2,8 +2,9 @@ import Hero from "./components/Hero.jsx";
 import Education from "./components/Education.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Technologies from "./components/Technologies.jsx";
+import Projects from "./components/Projects.jsx";
 
-import { certificate, technology } from "./data.js";
+import { certificate, technology, project } from "./data.js";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Education />
       <Certifications certificate={certificate} />
       <Technologies technology={technology} />
+      <Projects project={project} />
     </>
   )
 }

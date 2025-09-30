@@ -212,3 +212,46 @@ body {
   
   color: #a3a3a3;
 }
+
+/* BOTTOM NAV */
+
+#bottom-nav {
+  width: 260px;
+  padding: 23px 0;
+  margin: auto;
+
+  position: fixed;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  background-color: #ffffff;
+  border: 1px solid #a3a3a32f;
+  border-radius: 50px;
+  box-shadow: 0 0 30px #a3a3a380;
+}
+
+#bottom-nav a {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 23px;
+  height: 23px;
+
+  color: #525252;
+}
+
+.nav-div {
+  width: 1px;
+  height: 22px;
+
+  background-color: #a3a3a3b3;
+  align-self: flex-start;
+}

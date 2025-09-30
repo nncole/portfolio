@@ -11,12 +11,14 @@ function BottomNav() {
       </a>
 
       <a href="https://linkedin.com/in/sancheznncole" target="_blank" aria-label="LinkedIn">
-        <LinkedinIcon />
+        <LinkedinIcon className="nav-icon" />
       </a>
 
       <a href="mailto:sancheznncole@gmail.com" aria-label="Mail">
         <MailIcon className="nav-icon" />
       </a>
+
+      <div className="nav-div"></div>
 
       <a href="#" aria-label="Download Resume">
         <DownloadIcon className="nav-icon" />

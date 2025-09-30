@@ -209,6 +209,10 @@ body {
   padding: 20px 0;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 .card:not(:last-child) {
   border-bottom: 1px solid rgba(var(--gray), 0.25);
 }
@@ -220,6 +224,17 @@ body {
   font-weight: 500;
 
   color: rgb(var(--font-darker));
+}
+
+.ref-link:hover {
+  color: rgb(var(--pink));
+  text-decoration: underline;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.link-icon {
+  margin-left: 3px;
 }
 
 .card-description {
@@ -264,6 +279,9 @@ body {
 /* PROJECTS SECTION */
 
 .wip {
+  margin-left: 5px;
+  display: inline-block;
+
   font-weight: 400;
   font-size: 0.7rem;
   vertical-align: top;

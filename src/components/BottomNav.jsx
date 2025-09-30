@@ -20,7 +20,7 @@ function BottomNav() {
 
       <div className="nav-div"></div>
 
-      <a href="#" aria-label="Download Resume">
+      <a href="/Resume.pdf" download aria-label="Download Resume">
         <DownloadIcon className="nav-icon" />
       </a>
     </nav>

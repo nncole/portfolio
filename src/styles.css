@@ -91,18 +91,65 @@ body {
   font-size: 0.8rem;
 }
 
+/* Introduction CTA */
+
+#introduction-cta {
+  margin: 35px 0 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
 .status {
   width: 125px;
-  margin: 30px 0;
   padding: 5px;
 
   font-size: 0.75rem;
   text-align: center;
-  
+
   color: rgb(var(--status));
   background-color: rgba(var(--status), 0.15);
   border: 1px solid rgb(var(--status));
   border-radius: 25px;
+}
+
+#introduction-cta a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  position: relative;
+
+  font-size: 0.85em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.arrow {
+  transition: .4s ease;
+}
+
+#introduction-cta a:hover .arrow {
+  transform: translateX(4px);
+}
+
+#introduction-cta a::after {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+
+  height: 2px;
+  width: 100%;
+  
+  background-color: rgb(var(--pink));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: .4s ease;
+}
+
+#introduction-cta a:hover::after {
+  transform: scaleX(1);
 }
 
 /* Heart Animation */
@@ -266,3 +313,6 @@ body {
   background-color: rgba(var(--gray), 0.7);
   align-self: flex-start;
 }
+
+
+

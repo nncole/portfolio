@@ -1,3 +1,12 @@
+:root {
+  --white: 255, 255, 255;
+  --font-dark: 82, 82, 82;
+  --font-darker: 38, 38, 38;
+  --pink: 231, 161, 164;
+  --gray: 163, 163, 163;
+  --status: 34, 197, 94;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +16,8 @@ body {
   font-family: 'Roboto Mono', monospace;
   line-height: 1.75;
 
-  color: #525252;
-  background-color: #ffffff;
+  color: rgb(var(--font-dark));
+  background-color: rgb(var(--white));
   cursor: default;
 }
 
@@ -32,7 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
 
-  background-color: #ffffff40;
+  background-color: rgba(var(--white), 0.35);
   text-transform: lowercase;
   font-size: 0.8em;
 }
@@ -58,7 +67,7 @@ body {
 }
 
 #upper-nav li a:hover {
-  color: #e69fad;
+  color: rgb(var(--pink));
   text-decoration: underline;
 }
 
@@ -72,7 +81,7 @@ body {
 
 #introduction h1 {
   margin: 0;
-  color: #262626;
+  color: rgb(var(--font-darker));
   font-family: 'Crimson Pro', serif;
   font-style: italic;
   font-weight: 400;
@@ -86,11 +95,13 @@ body {
   width: 125px;
   margin: 30px 0;
   padding: 5px;
+
   font-size: 0.75rem;
   text-align: center;
-  color: #22c55e;
-  background-color: #22c55e26;
-  border: 1px solid #22c55e;
+  
+  color: rgb(var(--status));
+  background-color: rgba(var(--status), 0.15);
+  border: 1px solid rgb(var(--status));
   border-radius: 25px;
 }
 
@@ -127,7 +138,7 @@ body {
   height: 1px;
   margin-right: 15px;
 
-  background-color: #e69fad;
+  background-color: rgb(var(--pink));
 }
 
 .section-title {
@@ -138,7 +149,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 
-  color: #a3a3a3;
+  color: rgb(var(--gray));
 }
 
 /* SECTION STYLES */
@@ -152,7 +163,7 @@ body {
 }
 
 .card:not(:last-child) {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(var(--gray), 0.25);
 }
 
 .card-title {
@@ -161,7 +172,7 @@ body {
   font-size: 0.8rem;
   font-weight: 500;
 
-  color: #262626;
+  color: rgb(var(--font-darker));
 }
 
 .card-description {
@@ -178,13 +189,13 @@ body {
 
   display: inline-block;
 
-  background-color:#525252;
+  background-color: rgb(var(--font-dark));
   border-radius: 50%;
   vertical-align: middle;
 }
 
 .date {
-  color: #a3a3a3;
+  color: rgb(var(--gray));
 }
 
 /* TECHNOLOGIES SECTION */
@@ -210,7 +221,7 @@ body {
   font-size: 0.7rem;
   vertical-align: top;
   
-  color: #a3a3a3;
+  color: rgb(var(--gray));
 }
 
 /* BOTTOM NAV */
@@ -230,10 +241,10 @@ body {
   align-items: center;
   gap: 25px;
 
-  background-color: #ffffff;
-  border: 1px solid #a3a3a32f;
+  background-color: rgb(var(--white));
+  border: 1px solid rgba(var(--gray), 0.2);
   border-radius: 50px;
-  box-shadow: 0 0 30px #a3a3a380;
+  box-shadow: 0 0 30px rgba(var(--gray), 0.5);
 }
 
 #bottom-nav a {
@@ -245,13 +256,13 @@ body {
   width: 23px;
   height: 23px;
 
-  color: #525252;
+  color: rgb(var(--font-dark));
 }
 
 .nav-div {
   width: 1px;
   height: 22px;
 
-  background-color: #a3a3a3b3;
+  background-color: rgba(var(--gray), 0.7);
   align-self: flex-start;
 }

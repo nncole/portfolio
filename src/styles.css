@@ -322,6 +322,11 @@ body {
   height: 23px;
 
   color: rgb(var(--font-dark));
+  transition: .4s ease;
+}
+
+.nav-icon:hover {
+  color: rgb(var(--pink));
 }
 
 .nav-div {
@@ -331,6 +336,3 @@ body {
   background-color: rgba(var(--gray), 0.7);
   align-self: flex-start;
 }
-
-
-

@@ -4,12 +4,14 @@ export const certificate = [
     title: "Front End Developer Career Path Certification",
     detail: "Scrimba",
     date: "September 2025",
+    url: "https://scrimba.com/@nncole:certs;cert24zAwPPowRR9JMVKvSuqe1VdBWdNCXvQp6jhi",
   },
   {
     id: 2,
     title: "Responsive Web Design",
     detail: "freeCodeCamp",
-    date: "July 2025"
+    date: "July 2025",
+    url: "https://www.freecodecamp.org/certification/nncole/responsive-web-design",
   },
 ];
 
